@@ -1,0 +1,26 @@
+:root{
+    --bg-principal: #EFF1FF;
+    --bg-text-imagens:#FEEAFA;
+    --bg-h1: #CBC0D3;
+    --bg-header: #8E9AAF;
+    --text-color-imagens: #5C6981;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    width:100vw
+}
+
+
+.page {
+    max-width: 384px;
+    height: 100vh;
+
+    margin: 0 auto;
+}

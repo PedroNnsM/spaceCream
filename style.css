@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin&family=Staatliches&display=swap');
+
 :root{
     --bg-principal: #EFF1FF;
     --bg-text-imagens:#FEEAFA;
     --bg-h1: #CBC0D3;
     --bg-header: #8E9AAF;
+    
     --text-color-imagens: #5C6981;
+    
+    --ff-title: 'Staatliches', cursive;
+    --ff-descricao: 'Palanquin', sans-serif;
+    font-size: 62.5%;
+    --fs-body: 1.6rem;
 }
 
 
@@ -11,10 +19,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
     
 }
 body{
-    width:100vw
+    width:100vw;
+    font-size: var( --fs-body)
 }
 
 
@@ -23,4 +33,36 @@ body{
     height: 100vh;
 
     margin: 0 auto;
+}
+header{
+    height: 279px;
+    display: flex;
+    flex-direction: column;
+
+
+    align-items: center;
+    background-color: var(--bg-header);
+    color: #fff;
+    letter-spacing: 4px;
+}
+
+header h1{
+    width: 100%;
+    text-align: center;
+    background-color: var(--bg-h1);
+    text-transform: uppercase;
+    font-family: var(--ff-title)
+}
+
+header img{
+    width: 137px;
+    height: 137px;
+    margin: 34px auto 40px;
+}
+
+main{
+    background-color: var(--bg-principal);
+    text-align: center;
+    padding: 14px 32px;
+    display: grid;
 }

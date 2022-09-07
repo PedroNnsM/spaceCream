@@ -6,12 +6,13 @@
     --bg-h1: #CBC0D3;
     --bg-header: #8E9AAF;
     
-    --text-color-imagens: #5C6981;
+    --text-color-imagens: #4A4E69;
     
     --ff-title: 'Staatliches', cursive;
     --ff-descricao: 'Palanquin', sans-serif;
     font-size: 62.5%;
     --fs-body: 1.6rem;
+    --fs-heading: 4rem;
 }
 
 
@@ -58,6 +59,7 @@ header img{
     width: 137px;
     height: 137px;
     margin: 34px auto 40px;
+    
 }
 
 main{
@@ -65,4 +67,35 @@ main{
     text-align: center;
     padding: 14px 32px;
     display: grid;
+}
+
+.card   {
+    position: relative;
+    margin: 1.6rem auto;
+
+}
+
+.card p {
+    position: absolute;
+    top: 1.6rem;
+    right: 1.6rem;
+
+    height: 3.5rem;
+    width: 11.2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--bg-text-imagens);
+    align-itens: center;
+
+    border-radius: 2.0rem;
+
+    font-family: var(--ff-title);
+    letter-spacing: 0.05em;
+
+    color: var (--text-color-imagens);
+
+
 }

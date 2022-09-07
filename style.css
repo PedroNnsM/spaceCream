@@ -72,7 +72,7 @@ main{
 .card   {
     position: relative;
     margin: 1.6rem auto;
-
+    animation: downtop 700ms 350ms backwards;
 }
 
 .card p {
@@ -96,6 +96,30 @@ main{
     letter-spacing: 0.05em;
 
     color: var (--text-color-imagens);
+    animation: topDown 500ms  backwards;
+    animation-delay: 0.8s
 
+}
 
+@keyframes topDown {
+    0%{
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+@keyframes downtop {
+    0%{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
